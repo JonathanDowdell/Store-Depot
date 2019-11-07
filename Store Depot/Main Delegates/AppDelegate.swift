@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        defaults()
         return true
+    }
+    
+    func defaults() {
+        let nav = UINavigationBar.appearance()
+        nav.barTintColor = .whiteDynamic
+        nav.isTranslucent = false
     }
 
     // MARK: UISceneSession Lifecycle
