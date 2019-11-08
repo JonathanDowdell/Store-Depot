@@ -16,6 +16,7 @@ class HelperButton: UIButton {
         lb.font = .systemFont(ofSize: 18, weight: .bold)
         lb.textAlignment = .center
         lb.isUserInteractionEnabled = false
+        lb.numberOfLines = 0
         return lb
     }()
     
@@ -76,6 +77,10 @@ class HelperButton: UIButton {
     
     func setImageColor(_ color:UIColor?) {
         buttonImage.tintColor = color
+    }
+    
+    override func setAttributedTitle(_ title: NSAttributedString?, for state: UIControl.State) {
+        buttonText.attributedText = title
     }
     
     required init?(coder: NSCoder) {

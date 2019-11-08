@@ -10,7 +10,7 @@ import UIKit
 
 class HelperTextField: UIView {
     
-    let hStack: UIStackView = {
+    private let hStack: UIStackView = {
         let hstack = UIStackView()
         hstack.translatesAutoresizingMaskIntoConstraints = false
         hstack.axis = .horizontal
