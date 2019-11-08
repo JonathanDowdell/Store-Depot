@@ -63,7 +63,6 @@ class HelperButton: UIButton {
     }
     
     
-    
     override func setTitle(_ title: String?, for state: UIControl.State) {
         buttonText.text = title
     }
