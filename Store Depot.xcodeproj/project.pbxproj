@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2429BA4D23751BFC001E8AD8 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2429BA4C23751BFC001E8AD8 /* SignUpController.swift */; };
 		248307472373C74300810F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248307462373C74300810F89 /* AppDelegate.swift */; };
 		248307492373C74300810F89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248307482373C74300810F89 /* SceneDelegate.swift */; };
 		2483074B2373C74300810F89 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2483074A2373C74300810F89 /* WelcomeController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2429BA4C23751BFC001E8AD8 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		248307432373C74300810F89 /* Store Depot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Store Depot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248307462373C74300810F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248307482373C74300810F89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2429BA4B23751BDA001E8AD8 /* SignUp Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2429BA4C23751BFC001E8AD8 /* SignUpController.swift */,
+			);
+			path = "SignUp Controller";
+			sourceTree = "<group>";
+		};
 		2483073A2373C74300810F89 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 				248307772373CC9C00810F89 /* Utils */,
 				248307762373C8ED00810F89 /* Main Delegates */,
 				2483077C2373D6A900810F89 /* Welcome Controller */,
+				2429BA4B23751BDA001E8AD8 /* SignUp Controller */,
 				2483074F2373C74700810F89 /* Assets.xcassets */,
 				248307512373C74700810F89 /* LaunchScreen.storyboard */,
 				248307542373C74700810F89 /* Info.plist */,
@@ -302,6 +313,7 @@
 				2483077B2373CDE300810F89 /* UIColor+Theme.swift in Sources */,
 				248307812373EA4A00810F89 /* HelperButton.swift in Sources */,
 				2483074B2373C74300810F89 /* WelcomeController.swift in Sources */,
+				2429BA4D23751BFC001E8AD8 /* SignUpController.swift in Sources */,
 				248307792373CCBD00810F89 /* UIStackView+Utils.swift in Sources */,
 				2483077F2373D7AD00810F89 /* HelperTextField.swift in Sources */,
 				248307472373C74300810F89 /* AppDelegate.swift in Sources */,

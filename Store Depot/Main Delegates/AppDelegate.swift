@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func defaults() {
         let nav = UINavigationBar.appearance()
         nav.barTintColor = .whiteDynamic
+        nav.tintColor = .baseColor
         nav.isTranslucent = false
     }
 

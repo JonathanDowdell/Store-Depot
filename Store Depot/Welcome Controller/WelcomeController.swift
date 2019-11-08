@@ -101,17 +101,21 @@ class WelcomeController: UIViewController {
             inputStackViewV.topAnchor.constraint(equalTo: topLabelsStackV.bottomAnchor, constant: 75)
         ])
         // Sign Up
+        signUpBtn.addTarget(self, action: #selector(launchSignUp), for: .touchUpInside)
         view.addSubview(signUpBtn)
         NSLayoutConstraint.activate([
             signUpBtn.leadingAnchor.constraint(equalTo: topLabelsStackV.leadingAnchor),
             signUpBtn.trailingAnchor.constraint(equalTo: companyLogo.trailingAnchor),
-            signUpBtn.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 0)
+            signUpBtn.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20)
         ])
     }
 
-    
     @objc func didClick() {
         print("Hello World")
+    }
+    
+    @objc func launchSignUp() {
+        self.navigationController?.pushViewController(SignUpController(), animated: true)
     }
 }
 
